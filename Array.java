@@ -40,7 +40,13 @@ public class Array {
         }
         System.out.println();
 
-        
+        // print the sum of the array element
+        int[] sum_arr = {5,4,9,8,6,2,1};
+        int sum = 0;
+        for(int i=0;i<sum_arr.length;i++){
+            sum += sum_arr[i];
+        }
+        System.out.println(sum);
         sc.close();
     }
 }
