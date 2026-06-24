@@ -41,7 +41,25 @@ public class pattern{
 
         System.out.println(); // for looking good
 
-        
+            //                * * * * * * 
+            //              * * * * * * 
+            //            * * * * * * 
+            //          * * * * * * 
+            //        * * * * * * 
+            //      * * * * * * 
+
+        for(int i=0;i<6;i++){
+            //spaces logic
+            for(int j=0;j<6-i;j++){
+                System.out.print("  ");
+            }
+
+            //start logic
+            for(int k=0;k<6;k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
         sc.close();
     }
 }
