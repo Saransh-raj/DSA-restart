@@ -46,7 +46,9 @@ public class Array {
         for(int i=0;i<sum_arr.length;i++){
             sum += sum_arr[i];
         }
-        System.out.println(sum);
+        System.out.println(sum); // it print sum of the array
+
+        
         sc.close();
     }
 }
