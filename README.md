@@ -9,3 +9,6 @@
 
 # 26 june 2026 :-
 # Array continue question practice
+
+# 27 june 2026 :-
+# college related project can't do anything
